@@ -42,6 +42,8 @@ a:hover {
 
 .profile-pic {
     box-shadow: 0 0 7px 1px white;
+    height: 480px;
+    width: 305px;
 }
 
 .profile-pic:hover {
