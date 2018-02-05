@@ -1,44 +1,88 @@
 
 h1 {
     font-family: "Monoton", cursive;
-    color: rgb(255, 107, 255);
-    font-size: 350%;
-    border-bottom: 13px solid rgb(119, 255, 156);
+    color: #26a6e8;
+    font-size: 375%;
+    border-bottom: 4px solid #ff462a;
+    text-shadow: -3px -3px 0px white;
+    shadow: -3px -3px 0px white;
+    /* box-shadow: 0 0 7px 1px #26a6e8; */
 }
+
+h1:hover{
+    color: #ff462a;
+    border-bottom: 6px solid #26a6e8;
+    font-size: 385%;
+}
+
 body {
     font-family: "Lusitana", serif;
 }
 
 a {
-    color: rgb(255, 107, 255);
+    color: black;
+    margin: 0 7px 0 7px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
     text-decoration: none;
+    text-shadow: -3px -3px 0px rgb(227, 227, 227);
+    /* 3px 3px 0px rgb(57, 57, 57),
+    6px 6px 0px rgb(29, 29, 29) */
+}
+
+a:hover {
+    color: #ff462a;
+    text-decoration: none;
+    font-size: 33px;
+}
+
+.link-letter:hover {
+    color: #26a6e8;
+}
+
+.profile-pic {
+    box-shadow: 0 0 7px 1px white;
+}
+
+.profile-pic:hover {
+    box-shadow: 0 0 7px 1px black;
 }
 
 img {
     height: 80%;
     width: 30%;
     margin: 15px 0;
+    border-radius: 25px;
+    /* border: 5px solid white; */
+    /* box-shadow: 0 0 7px 1px white; */
+}
+
+img:hover {
+    /* box-shadow: 0 0 7px 1px black; */
 }
 
 header {
-    background-color: rgb(97, 146, 232);
+    background-color: black;
+    box-shadow: 0 0 7px 1px black;
 }
 main {
-    background-color: rgb(248, 247, 152);
+    background-color: #26a6e8;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     height: 600px;
+    /* box-shadow: 0 0 7px 1px black; */
 }
 
 footer {
-    background-color: rgb(255, 198, 153);
+    background-color: #ff462a;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-left: 28%;
     height: 200px;
+    box-shadow: 0 0 7px 1px #ff462a;
     /* justify-content: space-between;
     align-content: center;  */
 }
@@ -49,26 +93,38 @@ header {
 }
 h2 {
     letter-spacing: 2.5px;
-    padding-bottom: 20px;
-    margin-top: 15px;
+    /* padding-bottom: 40px;  */
+    margin-top: 0px; 
     font-size: 35px;
 }
 
-/* .social {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    height: 35px;
-    width: 35px;
-    margin-left: 90px; */
+nav {
+    box-shadow: 0 0 7px 0px white;
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    text-align: center;
 }
 
-/* .icon {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 50%;
+.nav-link1 {
+    padding-right: 20px;
+}
+
+.nav-link2 {
+    padding: 0 20px 0 20px;
+}
+
+.nav-link3 {
+    padding-left: 20px;
+}
+
+/* .icon:hover {
+    box-shadow: 0 0 7px 1px white;
+}
+
+
+.icon {
+    box-shadow: 0 0 7px 1px black;
 } */
 
 
