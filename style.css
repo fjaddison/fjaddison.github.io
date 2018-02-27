@@ -117,6 +117,13 @@ footer {
     justify-content: space-around;
 }
 
+@media (max-width: 790px) {
+    .profile-pic {
+        height: 374px;
+        width: 550px; 
+    }
+}
+
 /* .i-box{
     width: 60px
 } */
