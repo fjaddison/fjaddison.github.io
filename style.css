@@ -132,6 +132,9 @@ footer {
     main {
         height: 330px;
     }
+    .nav-link {
+        font-size: 20px
+    }
 }
 
 /* .i-box{
