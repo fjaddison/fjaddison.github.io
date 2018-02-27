@@ -47,6 +47,7 @@ a:hover {
     overflow: auto;
     margin: 15px 0;
     border-radius: 10px;
+    border: 4px solid #ff462a;
 }
 
 .profile-pic:hover {
@@ -147,4 +148,5 @@ footer {
 
 .icon-link:hover {
     color: #26a6e8;
+    font-size: 30px;
 }
