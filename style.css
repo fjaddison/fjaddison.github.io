@@ -124,6 +124,13 @@ footer {
     }
 }
 
+@media (max-width: 570px) {
+    .profile-pic {
+        height: 238px;
+        width: 350px; 
+    }
+}
+
 /* .i-box{
     width: 60px
 } */
