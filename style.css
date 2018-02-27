@@ -129,6 +129,9 @@ footer {
         height: 238px;
         width: 350px; 
     }
+    main {
+        height: 330px;
+    }
 }
 
 /* .i-box{
