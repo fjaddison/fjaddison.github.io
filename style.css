@@ -2,7 +2,6 @@
 h1 {
     font-family: "Monoton", cursive;
     color: #26a6e8;
-    font-size: 375%;
     border-bottom: 4px solid #ff462a;
     text-shadow: -3px -3px 0px white;
     shadow: -3px -3px 0px white;
@@ -18,6 +17,19 @@ h1:hover{
 body {
     font-family: "Lusitana", serif;
 }
+
+.header-link {
+    font-size: 215%;
+    font-family: "Monoton", cursive;
+    color: #26a6e8;
+    text-shadow: -3px -3px 0px white;
+}
+
+.header-link:hover {
+    color: #ff462a;
+    text-decoration: none;
+    font-size: 215%;
+} 
 
 a {
     color: black;
