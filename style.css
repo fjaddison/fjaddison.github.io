@@ -111,15 +111,15 @@ nav {
 }
 
 .nav-link1 {
-    padding-right: 20px;
+    padding: 0 20px 0 20px;
 }
-
+  
 .nav-link2 {
     padding: 0 20px 0 20px;
 }
-
+  
 .nav-link3 {
-    padding-left: 20px;
+    padding: 0 20px 0 20px;
 }
 
 footer {
