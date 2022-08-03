@@ -74,17 +74,41 @@
 
 #site-logo {
     font-family: 'Bungee Shade', cursive;
-    padding-right: 15px;
     color: white;
     font-size: 2rem;
 }
 
+#site-logo {
+    padding-right: 15px;
+}
+
 #logo-svg {
     height: 65%;
-    padding-right: 15px;
 }
 
 main {
     position: absolute;
     top: 0;
+}
+
+#site-footer {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    width: 100%;
+    z-index: 100;
+    position:absolute;
+    bottom: 2%;
+}
+
+#logo-box {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.footer-logo {
+    height: 35px;
+    width: 35px;
 }
