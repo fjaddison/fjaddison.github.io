@@ -20,6 +20,7 @@ logoBox.id = 'logo-box'
 let logoLinks = logoObjects.map(lo => {
     let a = document.createElement('a')
     a.href = lo.url
+    a.target = '_blank'
 
     let brandLogo = document.createElement('img') 
     brandLogo.classList.add('footer-logo')
