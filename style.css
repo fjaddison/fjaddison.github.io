@@ -68,10 +68,10 @@ main {
 }
 
 #links-box {
-    min-width: 170px;
+    min-width: 25%;
     padding-left: 15px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .site-link, .site-link:visited {
