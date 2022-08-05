@@ -80,6 +80,18 @@ main {
     }
 }
 
+@media (max-width:  1150px) {
+    #links-box {
+        min-width: 30%;
+    }
+}
+
+@media (max-width:  900px) {
+    #links-box {
+        min-width: 35%;
+    }
+}
+
 .site-link, .site-link:visited {
     color: white;
     text-decoration: none;
@@ -116,6 +128,12 @@ main {
     display: flex;
     justify-content: space-between;
     padding-right: 30px;
+}
+
+@media (max-width: 800px) {
+    #logo-box {
+        width: 20%;
+    }
 }
 
 .footer-logo {
