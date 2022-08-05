@@ -74,6 +74,12 @@ main {
     justify-content: space-between;
 }
 
+@media (min-width:  1560px) {
+    #links-box {
+        min-width: 20%;
+    }
+}
+
 .site-link, .site-link:visited {
     color: white;
     text-decoration: none;
