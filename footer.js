@@ -1,12 +1,12 @@
 let logoObjects = [
     {
         url: 'https://www.linkedin.com/in/julian-addison-8b219a151/',
-        path: 'linked.svg',
+        path: 'project-images/linked.svg',
         alt: 'LinkedIn Logo'
     },
     {
         url: 'https://github.com/fjaddison/',
-        path: 'github.svg',
+        path: 'project-images/github.svg',
         alt: 'Github Logo'
     }
 ]
