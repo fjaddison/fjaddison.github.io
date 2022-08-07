@@ -2,6 +2,16 @@ body {
     background: black;
 }
 
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+}
+
+/* ===== HOME =====*/
+
 main {
     position: absolute;
     top: 0;
@@ -56,6 +66,8 @@ main {
 .start {
     background: green;
 }
+
+/* ===== HEADER =====*/
 
 #site-header {
     position: sticky;
@@ -113,6 +125,8 @@ main {
     height: 65%;
 }
 
+/* ===== FOOTER =====*/
+
 #site-footer {
     display: flex;
     align-content: center;
@@ -139,4 +153,30 @@ main {
 .footer-logo {
     height: 1.6rem;
     width: 1.6rem;
+}
+
+/* ===== PROJECTS PAGE =====*/
+
+#projects-container {
+    padding: 15px 0 15px 15px;
+}
+
+.project {
+    color: #ffffff;
+    width: 66%;
+}
+
+.thumbnail {
+    width: 450px;
+    height: 450px;
+}
+
+@media (min-width: 1200px) {
+    .project {
+        width: 50%;
+    }
+    .thumbnail {
+        width: 650px;
+        height: 650px;
+    }
 }
