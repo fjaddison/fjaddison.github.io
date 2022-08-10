@@ -1,0 +1,163 @@
+a {
+    color: #6c86fb;
+}
+
+a:visited {
+    color: #9d4afb;
+}
+
+.site-link:nth-child(3) {
+    text-decoration: underline;
+}
+
+#projects-container {
+    padding: 25px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.project {
+    background: #0f0f0f;
+    color: #ffffff;
+    width: 80%;
+    margin: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* box-shadow: -1px 1px 2px rgb(37, 36, 36); */
+    padding: 20px;
+
+}
+
+.project-info {
+    width: 60%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-info h4 {
+    margin: 0;
+    padding-top: 15px;
+    font-size: 1.5rem;
+}
+
+.project-info p {
+    font-size: 1.15rem;
+}
+
+
+
+.thumbnail {
+    /* border-radius: 20px; */
+    width: 25%;
+    margin: 25px;
+    /* box-shadow: -1px 1px 3px rgb(105, 101, 101); */
+}
+
+@media (max-width: 1300px) {
+    .project-info h4 {
+        font-size: 1.25rem;
+    }
+    
+    .project-info p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 1150px) {
+    .project-info h4 {
+        padding-top: 0;
+    }
+    .project-info p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1050px) {
+    .project-info h4 {
+        font-size: 1.2rem;
+    }
+    .project-info p {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 990px) {
+    .project-info h4 {
+        font-size: 1.15rem;
+    }
+    .project-info p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 887px) {
+    .project {
+        width: 85%;
+    }
+    .project-info {
+        width: 75%;
+    }
+    .project-info h4 {
+        font-size: 1rem;
+    }
+    .thumbnail {
+        width: 20%;
+    }
+    .project-info p {
+        font-size: 0.8rem;
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 770px) {
+    .project {
+        width: 90%;
+    }
+    
+}
+
+/* AT AROUND 650 PIXEL WIDTH CHANGE FLEX DIRECTION TO COLUMN AND RESIZE EVERYTHING */
+
+
+
+/* @media (max-width: 646px) {
+    .project {
+        width: 100%;
+        padding: 40px 0;
+    }
+    .thumbnail {
+        width: 17%;
+    }
+    .project-info {
+        width: 78%;
+    }
+    .project-info h4 {
+        font-size: 0.85rem;
+    }
+} */
+
+@media (max-width: 650px) {
+    .project {
+        flex-direction: column;
+    }
+    .thumbnail {
+        width: 75%;
+    }
+    .project-info {
+        width: 75%;
+    }
+    .project-info h4 {
+        text-align: center;
+        width: 80%;
+    }
+    .project-info p {
+        padding: 5px 0;
+    }
+}
