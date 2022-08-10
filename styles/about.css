@@ -31,15 +31,8 @@ p {
 
 #about-pic {
     width: 35%;
-    /* background: pink; */
-    
 }
 
-/* @media (max-width: 1240px) {
-    #about-pic {
-        width: 40%;
-    }
-} */
 @media (max-width: 1115px) {
     #about-pic {
         width: 45%;
