@@ -54,6 +54,15 @@ a:visited {
     margin: 25px;
 }
 
+@media (min-width: 1700px) {
+    .project-info p {
+        font-size: 1.35rem;
+    }
+    .project-info h4 {
+        font-size: 1.7rem;
+    }
+}
+
 @media (min-width: 1500px) {
     .project-info p {
         font-size: 1.25rem;
