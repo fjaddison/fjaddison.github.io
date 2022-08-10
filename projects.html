@@ -6,37 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="project-images/JA-Logo.svg">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/projects.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Roboto&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">    <title>Projects</title>
-    <style>
-        .site-link:nth-child(3) {
-            text-decoration: underline;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Roboto&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">    
+    <title>Projects</title>
 </head>
 <body>
-    <script src="header.js"></script>
+    <header id="site-header">
+        <div id="links-box">
+            <a href="index.html" class="site-link">Home</a>
+            <a href="about.html" class="site-link">About</a>
+            <a href="projects.html" class="site-link">Projects</a>
+        </div>
+        <h1 id="site-logo">JA</h1>
+    </header>   
+    <!-- START  -->
     <div id="projects-container">
         <div class="project">
-            <h2>Random Grid</h2>
-            <img class="thumbnail" src="project-images/random-grid.png" alt="Image of a grid with randomly sized rectangles." >
-            <p>My goal with this sketch was to create an algorithm that could fill any rectangle with randomly sized smaller rectangles.</p>
-            <p>See a randomly generated output <a target="_blank" href="https://fjaddison.github.io/random-grid/">here</a>.  See the code <a href="https://github.com/fjaddison/random-grid" target="_blank">here</a>.</p>
+            <img class="thumbnail" src="random-grid.png" alt="Image of a grid with randomly sized rectangles." >
+            <div class="project-info">
+                <h4>Random Grid</h4>
+                <p>My goal with this sketch was to create an algorithm that could fill any rectangle with randomly sized smaller rectangles. The algorithm takes a rectangle with length L and width W at position (x, y) and checks if it's inbounds and has no overlap.</p>
+                <p>See a randomly generated output <a target="_blank" href="https://fjaddison.github.io/random-grid/">here</a>.  See the code <a href="https://github.com/fjaddison/random-grid" target="_blank">here</a>.</p>
+            </div>
         </div>
         <div class="project">
-            <h2>Generative Art in Vanilla JavaScript</h2>
-            <img class="thumbnail" src="project-images/svg.png" alt="Image of a an generative output of bezier curves and ellipses." >
-            <p>I wanted to challenge myself here. While I find p5.js to be very useful and a lot of fun, I wanted to know what it would take to create a program that renders SVG without the use of an external library.</p>
-            <p>See a randomly generated output <a target="_blank" href="https://fjaddison.github.io/generative-svg/">here</a>. See the code <a href="https://github.com/fjaddison/generative-svg" target="_blank">here</a>.</p>
+            <img class="thumbnail" src="svg.png" alt="Image of a grid with randomly sized rectangles." >
+            <div class="project-info">
+                <h4>Generative Art in Vanilla JavaScript</h4>
+                <p>I wanted to challenge myself here. While I find p5.js to be very useful and a lot of fun, I wanted to know what it would take to create a program that renders SVG without the use of an external library.</p>
+                <p>See a randomly generated output <a target="_blank" href="https://fjaddison.github.io/generative-svg/">here</a>. See the code <a href="https://github.com/fjaddison/generative-svg" target="_blank">here</a>.</p>
+            </div>
         </div>
         <div class="project">
-            <h2>Bent Attempt</h2>
-            <img class="thumbnail" src="project-images/bent.png" alt="" srcset="">
-            <p>Attempting to learn gen art concepts in trying to replicate ippsketch's Bent, which is one of my favorite algorithms to come out of Art Blocks.</p>
-            <p>See a randomly generated output <a target="_blank" href="https://fjaddison.github.io/bent-attempt/">here</a>. See the code <a href="https://github.com/fjaddison/generative-svg" target="_blank">here</a>.</p>
+            <img class="thumbnail" src="bent.png" alt="Image of a grid with randomly sized rectangles." >
+            <div class="project-info">
+                <h4>Bent Study</h4>
+                <p>Attempting to learn generative art concepts in trying to replicate ippsketch's Bent. Bent is one of my favorite Art Blocks generative art series and it inspired me to see such a fun and endless algorithm. This is a very simplified attempt and barely scratches the surface.</p>
+                <p>See a randomly generated output <a target="_blank" href="https://fjaddison.github.io/bent-attempt/">here</a>. See the code <a href="https://github.com/fjaddison/bent-attempt" target="_blank">here</a>.</p>
+            </div>
         </div>
     </div>
-    <script src="footer.js"></script>
+     <!-- END  -->
+    <footer id="site-footer">
+        <div id="logo-box">
+            <a href="https://www.linkedin.com/in/julian-addison-8b219a151/" target="_blank">
+                <img class="footer-logo" src="linked.svg" alt="LinkedIn Logo">
+            </a>
+            <a href="https://github.com/fjaddison/" target="_blank">
+                <img class="footer-logo" src="github.svg" alt="Github Logo">
+            </a>
+        </div>
+    </footer>
+    <script src="js/projects.js"></script>
+
 </body>
 </html>
